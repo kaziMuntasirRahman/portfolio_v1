@@ -10,6 +10,8 @@
 
 nav {
   display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .web_header {
@@ -25,6 +27,7 @@ nav {
 
 nav>ul {
   display: flex;
+  align-items: center;
 }
 
 nav li {
@@ -38,9 +41,11 @@ nav a {
 }
 
 .btn_primary {
-  color: var(--White-Color, #FFF);
-  font-size: 20px;
+  color: white;
   font-weight: 700;
+  font-size: 20px;
+  border: 0;
   border-radius: 5px;
   background-color: var(--primary_color);
+  padding: 18px 35px 19px 36px;
 }
