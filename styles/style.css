@@ -6,18 +6,19 @@
   --primary_color: #FD6E0A;
   --dark_01: #181818;
   --dark_02: #474747;
+  --light: #FFF8F3;
 }
 
 nav {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: space-around;
+  margin: 0 200px;
 }
 
-.web_header {
+.nav_title {
   color: var(--dark_01);
   font-size: 45px;
-  font-style: normal;
   font-weight: 800;
 }
 
@@ -48,4 +49,20 @@ nav a {
   border-radius: 5px;
   background-color: var(--primary_color);
   padding: 18px 35px 19px 36px;
+}
+
+/*--------------------- Header Style start------------- */
+.header {
+  background-color: var(--light);
+}
+
+.banner {
+  display: flex;
+  padding: 30px 30px 30px 150px;
+  align-items: center;
+}
+
+.banner #profile_pic {
+  width: 584px;
+  height: 676px;
 }
