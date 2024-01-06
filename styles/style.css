@@ -1,12 +1,21 @@
 * {
   font-family: 'Open Sans', sans-serif;
+  /* margin: 0; */
 }
 
 :root {
   --primary_color: #FD6E0A;
   --dark_01: #181818;
   --dark_02: #474747;
+  --dark_03: #757575;
   --light: #FFF8F3;
+}
+
+.section_title {
+  color: var(--Dark-01);
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
 }
 
 nav {
@@ -54,15 +63,63 @@ nav a {
 /*--------------------- Header Style start------------- */
 .header {
   background-color: var(--light);
+  background-image: url(/images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
 }
 
 .banner {
   display: flex;
-  padding: 30px 30px 30px 150px;
+  justify-content: space-between;
   align-items: center;
+  padding: 30px 30px 0px 150px;
+}
+
+.banner_content {
+  max-width: 585px;
 }
 
 .banner #profile_pic {
   width: 584px;
   height: 676px;
+  /* padding: 200; */
+}
+
+.banner_greeting {
+  color: var(--dark_02);
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.banner_title {
+  color: var(--dark_01);
+  font-size: 85px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.banner_description {
+  margin-top: 0;
+}
+
+.about {
+  width: 1140px;
+  height: 550px;
+  border-radius: 10px;
+  background: #FFF8F3;
+  margin: 130px;
+}
+
+.section_description {
+  width: 827px;
+  color: var(--dark_03);
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  /* 166.667% */
 }
